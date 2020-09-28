@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orangered;
+}
+
+header{
+    background-image: url(/img/pexels-gabriela-palai-395196.jpg);
+    background-repeat: no-repeat;
+    /*cubrita todos lso elementos sin que sufra un estiramiento*/
+    background-attachment: fixed;
+    background-size: 100% 42%;
+    height: 40vh;
+    border-radius: 15px;
+    margin: 12px;
+}
+
+header h1{
+   font-size: 55px;
+}
+
+.nav-header{
+    background-color: #8b603aa2;
+    
+}
+ 
+time{
+    display: block;
+}
+
+main,aside{
+    background-color: lawngreen;
+    border-radius: 20px;
+}
+
+main hgroup{
+    background-color: white;
+    border-radius: 90px;
+}
+
+main p{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+footer address a{
+    color: white;
+}
+
+time,figcaption{
+    font-weight: bolder;
+}
+
+aside blockquote{
+    background-color: white;
+    padding: 70px 10px;
+    border-radius: 25px;
+}
+
+
+.footer li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer{
+     color: white;
+     border-radius: 12px;
+    
+   
+}
+
+
+.content-galery{
+    background-color: #00ad45;
+    
+}
+
+.puntas{
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+.card img{
+   filter: sepia(1);
+}
+
+.card:hover img{
+    border: 2px solid white;
+    filter: sepia(0);
+    transition-duration: 5s;
+}
+
+.close span{
+    font-size: 30px;
+    color: white;
+}
+
+.cursor-person{
+    cursor: zoom-in;
+}
+
+.icons i{
+    font-size: 2rem;
+}
+
+.icons i:hover{
+    font-size: 2rem;
+    color: darkturquoise;
+}
+
+.m-form{
+    background-color: #ffdd00;
+    padding: 50px;
+}
+
+.formulario{
+    width: 50%;
+    border-radius: 12px 80px;
+    margin: auto;
+    background-color: green;
+    padding: 10px;
+}
+
+.datos-form{
+    margin: 18px
+}
+
+
+
+
+     /* .ancho{
+    background-color: rgba(218,47,47,0.5);
+    height: 15vh;
+}
+
+.ancho1{
+    height: 15vh;
+}  */
